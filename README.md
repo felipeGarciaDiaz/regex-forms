@@ -12,7 +12,7 @@ regforms.validator.title("this should be a title);
 //returns true or false if it meets the criteria
 ```
 
-##To Do list:
+## To Do list:
 
 * more regex's
 * Event handling
