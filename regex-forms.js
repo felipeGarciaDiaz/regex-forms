@@ -1,8 +1,8 @@
 //API FOR VALIDATION OF USEFUL FORMS
 
 var validator = {
-	title: function (data) {
-		if (data.length <= 100 && data.length >= 10) {
+	title: function (data, max, min) {
+		if (data.length <= max && data.length >= min) {
 			return true;
 			//any data between the range
 		} else {
@@ -25,8 +25,8 @@ var validator = {
 			return false;
 		}
 	},
-	description: function (data) {
-		if (data.length <= 1500 && data.length >= 100) {
+	description: function (data, max, min) {
+		if (data.length <= max && data.length >= min) {
 			return true;
 			//any character in range
 		} else {
