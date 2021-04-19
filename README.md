@@ -1,7 +1,7 @@
 # regex-forms
 
 ### A library for effortlessy validating forms, and other inputs in javascript
-At this time regex-forms is pretty SVGFEDisplacementMapElement, if you have any useful regex's to add please do so! I just added a few that i needed at a certain time. i will add more soon. 
+At this time regex-forms is pretty simple, if you have any useful regex's to add please do so! I just added a few that i needed at a certain time. i will add more soon. 
 
 ## Examples:
 ```
