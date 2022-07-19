@@ -1,6 +1,6 @@
 //API FOR VALIDATION OF USEFUL FORMS
 
-var validator = {
+const validator = {
 	
 	title: (data) => data.length <= 100 && data.length >= 10,
 	//anything in range
